@@ -1,0 +1,33 @@
+body{
+    min-height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
+
+.stopwatch{
+    font-size: 5rem;
+    display: flex;
+    font-family: 'orbitron',sans-serif;
+    color: lawngreen;
+}
+
+.stopwatch > * {
+    width: 10rem;
+    text-align: center;
+}
+
+.buttons > *{
+    font-family: 'orbitron',sans-serif;
+    cursor: pointer;
+}
